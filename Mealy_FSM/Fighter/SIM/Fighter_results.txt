@@ -1,0 +1,16 @@
+---------------- scoreboard ----------------
+cycles checked    : 20226
+errors            : 8092
+hits              : 2347
+blocked attacks   : 1590
+player 1 wins     : 60
+player 2 wins     : 47
+draws             : 13
+resets mid-fight  : 66
+--------------------------------------------
+Fatal: [ENV] TEST FAILED (8092 errors)
+Time: 202286 ns  Iteration: 0  Process: /$unit_Fighter_RTL_sv_3095692108/FighterEnvironment::run  Scope: $unit_Fighter_RTL_sv_3095692108.FighterEnvironment::run  File: /home/deffff/FSM_sv/Mealy_FSM/Fighter/TB/Fighter_tb.sv Line: 516
+$finish called at time : 202286 ns
+exit
+INFO: xsimkernel Simulation Memory Usage: 508848 KB (Peak: 549212 KB), Simulation CPU Usage: 1260 ms
+INFO: [Common 17-206] Exiting xsim at Thu Oct 15 21:30:59 2026...
