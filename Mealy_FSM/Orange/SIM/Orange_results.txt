@@ -1,0 +1,6 @@
+cycles in CHECK: 47
+cycles in GOOD : 10
+cycles in SOUR : 7
+cycles in BAD  : 153
+--------------------------------------------
+[ENV] TEST PASSED
