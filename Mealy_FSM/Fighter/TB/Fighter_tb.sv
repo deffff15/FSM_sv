@@ -1,6 +1,6 @@
 `timescale 1ns/1ps
 import Fighter_paczka::*;
- 
+  
 // ---------------------------------------------------------------------------
 // Interface
 // ---------------------------------------------------------------------------
@@ -19,6 +19,7 @@ interface fighter_if (input logic clk);
         input rst_n, start, finish, p1_ad, p2_ad, hp1, hp2, winner;
     endclocking
 endinterface
+ 
  
 // ---------------------------------------------------------------------------
 // Transaction
@@ -101,14 +102,17 @@ class FighterScoreboard;
         stany       next_state;
         akcje       next_act1, next_act2;
         logic [3:0] next_hp1, next_hp2;
+        bit         frozen;
+ 
+        frozen = (state != FIGHT) || tr.finish || (hp1 == 0) || (hp2 == 0);
  
         p1_atk_rise = tr.p1_ad[1] & ~prev1[1];
         p1_def_rise = tr.p1_ad[0] & ~prev1[0];
         p2_atk_rise = tr.p2_ad[1] & ~prev2[1];
         p2_def_rise = tr.p2_ad[0] & ~prev2[0];
  
-        p1_hit_try = (state == FIGHT) && (act1 == IDLE) && p1_atk_rise;
-        p2_hit_try = (state == FIGHT) && (act2 == IDLE) && p2_atk_rise;
+        p1_hit_try = !frozen && (act1 == IDLE) && p1_atk_rise;
+        p2_hit_try = !frozen && (act2 == IDLE) && p2_atk_rise;
  
         p1_blocking = (act1 == DEFENSE) || ((act1 == IDLE) && p1_def_rise && !p1_atk_rise);
         p2_blocking = (act2 == DEFENSE) || ((act2 == IDLE) && p2_def_rise && !p2_atk_rise);
@@ -127,7 +131,7 @@ class FighterScoreboard;
             next_hp1 = max_hp;
             next_hp2 = max_hp;
         end
-        else if (state == FIGHT) begin
+        else if (!frozen) begin
             if (p1_hit_try) begin
                 if (p2_blocking)
                     blocked++;
@@ -148,7 +152,7 @@ class FighterScoreboard;
  
         next_act1 = act1;
         next_act2 = act2;
-        if (state != FIGHT) begin
+        if (frozen) begin
             next_act1 = IDLE;
             next_act2 = IDLE;
         end
@@ -177,8 +181,8 @@ class FighterScoreboard;
         hp2   = next_hp2;
         act1  = next_act1;
         act2  = next_act2;
-        prev1 = tr.p1_ad;
-        prev2 = tr.p2_ad;
+        prev1 = frozen ? 2'b00 : tr.p1_ad;
+        prev2 = frozen ? 2'b00 : tr.p2_ad;
     endfunction
  
     function void check(FighterTxn tr);
@@ -228,7 +232,7 @@ class FighterScoreboard;
     endfunction
  
     function void report();
-        $display("---------------- scoreboard ----------------");
+        $display("---------------- CHECK ----------------");
         $display("cycles checked    : %0d", checked);
         $display("errors            : %0d", errors);
         $display("hits              : %0d", hits);
@@ -382,7 +386,7 @@ class FighterGenerator;
         hold(BTN_BOTH, BTN_NONE, 2);
         hold(BTN_DEF, BTN_NONE, 2);
         idle(2);
-
+ 
         begin_fight();
         hold(BTN_BOTH, BTN_NONE, 3);
         idle(2);
@@ -390,7 +394,6 @@ class FighterGenerator;
         begin_fight();
         hold(BTN_ATK, BTN_ATK, 2);
         idle(2);
- 
         begin_fight();
         repeat (max_hp) begin
             hold(BTN_ATK, BTN_NONE);
@@ -398,37 +401,31 @@ class FighterGenerator;
         end
         hold(BTN_ATK, BTN_ATK, 2);
         idle(3);
-
         begin_fight();
         repeat (max_hp) begin
             hold(BTN_NONE, BTN_ATK);
             idle();
         end
         idle(3);
-
         begin_fight();
         repeat (max_hp) begin
             hold(BTN_ATK, BTN_ATK);
             idle();
         end
         idle(3);
- 
         begin_fight();
         hold(BTN_ATK, BTN_NONE);
         idle();
         step(1'b1, 1'b0, 1'b1);
         idle(3);
-
         begin_fight();
         hold(BTN_NONE, BTN_ATK);
         idle();
         step(1'b1, 1'b0, 1'b1);
         idle(3);
-
         begin_fight();
         step(1'b1, 1'b0, 1'b1);
         idle(3);
-
         begin_fight();
         hold(BTN_ATK, BTN_NONE);
         idle();
@@ -552,7 +549,6 @@ module tb_Fighter;
         #5us;
         $dumpoff;
     end
- 
     initial begin
         vif.rst_n  = 1'b0;
         vif.start  = 1'b0;
@@ -568,7 +564,6 @@ module tb_Fighter;
         env.run();
         $finish;
     end
- 
     initial begin
         #10ms;
         $fatal(1, "[TB] timeout");
