@@ -1,0 +1,11 @@
+---------------- CHECK ----------------
+cycles checked    : 20226
+errors            : 0
+hits              : 2460
+blocked attacks   : 1576
+player 1 wins     : 79
+player 2 wins     : 68
+draws             : 11
+resets mid-fight  : 28
+--------------------------------------------
+[ENV] TEST PASSED
