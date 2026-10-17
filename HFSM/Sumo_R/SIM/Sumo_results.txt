@@ -1,0 +1,11 @@
+========== SUMO SCOREBOARD ==========
+Cycles checked : 2003
+Passed         : 2003
+Errors         : 0
+START cycles   : 84
+FIGHT cycles   : 1536
+STOP cycles    : 383
+SEARCH cycles  : 782
+ATTACK cycles  : 529
+EVADE cycles   : 225
+=====================================
