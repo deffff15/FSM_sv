@@ -1,0 +1,14 @@
+========== PHONE SCOREBOARD =========
+Cycles checked      : 3003
+Passed              : 3003
+Errors              : 0
+POWERED_OFF cycles  : 526
+LOCKED cycles       : 1370
+  DEEP_SLEEP cycles : 494
+  AOD cycles        : 876
+UNLOCKED cycles     : 1107
+  HOME cycles       : 629
+  GAME cycles       : 478
+Screen on cycles    : 1983
+GPU high cycles     : 478
+=====================================
