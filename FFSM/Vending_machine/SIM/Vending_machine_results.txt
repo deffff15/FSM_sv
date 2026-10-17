@@ -1,1 +1,11 @@
-Test completed successfully
+========= VENDING SCOREBOARD ========
+Cycles checked    : 2003
+Passed            : 2003
+Errors            : 0
+IDLE cycles       : 849
+CREDIT_1 cycles   : 432
+CREDIT_2 cycles   : 507
+DISPENSING cycles : 215
+Refund 1 PLN      : 22
+Refund 2 PLN      : 10
+=====================================
