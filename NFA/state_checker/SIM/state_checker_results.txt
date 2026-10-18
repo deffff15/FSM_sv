@@ -1,0 +1,9 @@
+=========== NFA SCOREBOARD ==========
+Cycles checked    : 2003
+Passed            : 2003
+Errors            : 0
+State 0 active    : 2003
+State 1 active    : 988
+State 2 active    : 490
+Matched cycles    : 490
+=====================================
