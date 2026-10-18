@@ -1,0 +1,9 @@
+=========== DFA SCOREBOARD ==========
+Cycles checked    : 2003
+Passed            : 2003
+Errors            : 0
+IDLE cycles       : 604
+GOT_1 cycles      : 813
+GOT_10 cycles     : 396
+FOUND_101 cycles  : 190
+=====================================
