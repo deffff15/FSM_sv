@@ -1,0 +1,10 @@
+========= DEBOUNCE SCOREBOARD =======
+Cycles checked     : 2003
+Passed             : 2003
+Errors             : 0
+LOW cycles         : 731
+FILTER_HIGH cycles : 230
+HIGH cycles        : 809
+FILTER_LOW cycles  : 233
+btn_out high       : 1042
+=====================================
