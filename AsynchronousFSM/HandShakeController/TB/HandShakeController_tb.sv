@@ -110,9 +110,12 @@ class HandshakeScoreboard;
         if (!rst_n) begin
             expected_state = M_IDLE;
         end
-        else if (req || s_ready) begin
+        else begin
 
             for (int i = 0; i < 8; i++) begin
+
+                if (!(req || s_ready || (expected_state == M_WAIT_FOR_RESET)))
+                    break;
 
                 next_state = next_of(expected_state, req, s_ready);
 
@@ -122,6 +125,7 @@ class HandshakeScoreboard;
                 expected_state = next_state;
 
             end
+
         end
 
         expected_ack        = (expected_state == M_DATA_READY);
@@ -135,8 +139,12 @@ class HandshakeScoreboard;
         if (data_valid !== expected_data_valid)
             mismatch = 1;
 
-        if (mismatch)
+        if (mismatch) begin
             errors++;
+            if (errors <= 5)
+                $display("MISMATCH t=%0t rst_n=%b req=%b s_ready=%b model_state=%0d ack=%b expected_ack=%b",
+                         $time, rst_n, req, s_ready, expected_state, ack, expected_ack);
+        end
 
         case (expected_state)
             M_IDLE:           idle_cycles++;
@@ -367,4 +375,3 @@ module tb_HandshakeController;
     end
 
 endmodule //The last line must be empty so VsCode doesn't give a mistake
-

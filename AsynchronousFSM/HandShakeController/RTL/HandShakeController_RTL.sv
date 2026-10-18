@@ -18,7 +18,7 @@ module HandshakeController (
     always_latch begin
         if (!rst_n)
             current_state = IDLE;
-        else if (req || s_ready)
+        else if (req || s_ready || current_state == WAIT_FOR_RESET)
             current_state = next_state;
     end
 

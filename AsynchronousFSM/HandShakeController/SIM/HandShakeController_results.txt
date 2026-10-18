@@ -1,10 +1,10 @@
 ======== HANDSHAKE SCOREBOARD =======
 Cycles checked          : 2003
-Passed                  : 1889
-Errors                  : 114
-IDLE cycles             : 651
-DATA_READY cycles       : 336
-WAIT_FOR_RESET cycles   : 1016
-ack high cycles         : 336
-WAIT held, req=0 cycles : 236
+Passed                  : 2003
+Errors                  : 0
+IDLE cycles             : 849
+DATA_READY cycles       : 450
+WAIT_FOR_RESET cycles   : 704
+ack high cycles         : 450
+WAIT held, req=0 cycles : 0
 =====================================
