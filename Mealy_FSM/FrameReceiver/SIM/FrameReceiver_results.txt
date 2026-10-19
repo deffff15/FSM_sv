@@ -1,0 +1,5 @@
+CHECK_STOP cycles   : 232
+rx_done pulses      : 124
+error_flag pulses   : 108
+=====================================
+TEST PASSED
