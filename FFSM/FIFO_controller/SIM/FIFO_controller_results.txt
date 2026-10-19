@@ -1,0 +1,9 @@
+========== FIFO SCOREBOARD ==========
+Cycles checked   : 2003
+Passed           : 2003
+Errors           : 0
+IDLE cycles      : 802
+WRITE cycles     : 587
+READ cycles      : 501
+ERROR cycles     : 113
+=====================================
