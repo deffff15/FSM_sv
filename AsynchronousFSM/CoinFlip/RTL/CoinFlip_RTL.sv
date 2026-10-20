@@ -1,4 +1,3 @@
-`timescale 1ns/1ps
 package CoinPackage;
     typedef enum logic [1:0] {
         ST_IDLE     = 2'b00,
