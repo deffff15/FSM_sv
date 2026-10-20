@@ -1,0 +1,11 @@
+========== DRUNK SCOREBOARD =========
+Cycles checked    : 2003
+Passed            : 2003
+Errors            : 0
+Enable cycles     : 1411
+Disabled cycles   : 592
+SOBER cycles      : 541
+TIPSY cycles      : 488
+DRUNK cycles      : 469
+WASTED cycles     : 505
+=====================================
