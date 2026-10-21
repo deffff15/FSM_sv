@@ -1,0 +1,10 @@
+======== DRIVE THRU SCOREBOARD ======
+Cycles checked       : 2003
+Passed               : 2003
+Errors               : 0
+IDLE cycles          : 645
+TAKING_ORDER cycles  : 502
+WAIT_PAYMENT cycles  : 425
+WAIT_PICKUP cycles   : 346
+CANCELLING cycles    : 85
+=====================================
