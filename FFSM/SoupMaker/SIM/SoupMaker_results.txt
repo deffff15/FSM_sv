@@ -1,0 +1,11 @@
+========== SOUP SCOREBOARD ==========
+Cycles checked    : 2003
+Passed            : 2003
+Errors            : 0
+IDLE cycles       : 496
+HEATING cycles    : 536
+ADDING cycles     : 147
+COOKING cycles    : 684
+READY cycles      : 140
+Heater on cycles  : 1220
+=====================================
