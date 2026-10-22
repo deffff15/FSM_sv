@@ -1,0 +1,13 @@
+========== LADDER SCOREBOARD ==========
+Cycles checked    : 2003
+Passed            : 2003
+Errors            : 0
+GROUND cycles     : 398
+RUNG_1 cycles     : 332
+RUNG_2 cycles     : 279
+TOP cycles        : 1183
+Multi-bit cycles  : 189
+Broken events     : 54
+Start events      : 204
+Reset cycles      : 12
+=======================================
