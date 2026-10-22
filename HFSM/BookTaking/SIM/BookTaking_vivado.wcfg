@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_BookTaking_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_rtl_sv_3096229780 " />
+            <top_module name="glbl" />
+            <top_module name="tb_BookTaking" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,993 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="107"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject type="logic" fp_name="/tb_BookTaking/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/start_i">
+      <obj_property name="ElementShortName">start_i</obj_property>
+      <obj_property name="ObjectShortName">start_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/book_found_i">
+      <obj_property name="ElementShortName">book_found_i</obj_property>
+      <obj_property name="ObjectShortName">book_found_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/shelf_end_i">
+      <obj_property name="ElementShortName">shelf_end_i</obj_property>
+      <obj_property name="ObjectShortName">shelf_end_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/scan_success_i">
+      <obj_property name="ElementShortName">scan_success_i</obj_property>
+      <obj_property name="ObjectShortName">scan_success_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/walk_to_shelf_o">
+      <obj_property name="ElementShortName">walk_to_shelf_o</obj_property>
+      <obj_property name="ObjectShortName">walk_to_shelf_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/scan_eyes_o">
+      <obj_property name="ElementShortName">scan_eyes_o</obj_property>
+      <obj_property name="ObjectShortName">scan_eyes_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/move_next_shelf_o">
+      <obj_property name="ElementShortName">move_next_shelf_o</obj_property>
+      <obj_property name="ObjectShortName">move_next_shelf_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/take_book_o">
+      <obj_property name="ElementShortName">take_book_o</obj_property>
+      <obj_property name="ObjectShortName">take_book_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/register_checkout_o">
+      <obj_property name="ElementShortName">register_checkout_o</obj_property>
+      <obj_property name="ObjectShortName">register_checkout_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_BookTaking/vif/process_done_o">
+      <obj_property name="ElementShortName">process_done_o</obj_property>
+      <obj_property name="ObjectShortName">process_done_o</obj_property>
+   </wvobject>
+</wave_config>
