@@ -1,0 +1,15 @@
+============ RPS SCOREBOARD =========
+Cycles checked      : 30003
+Passed              : 30003
+Errors              : 0
+IDLE cycles         : 257
+PLAY cycles         : 18119
+EVALUATE cycles     : 9755
+GAME_OVER cycles    : 1872
+Player round wins   : 2898
+AI round wins       : 2956
+Draw rounds         : 2901
+Winner cycles       : 712
+Loser cycles        : 780
+Tie game cycles     : 380
+=====================================
