@@ -1,0 +1,11 @@
+========= PARKING SCOREBOARD ========
+Cycles checked     : 20002
+Passed             : 20002
+Errors             : 0
+EMPTY cycles       : 828
+PARKED cycles      : 19174
+Exits              : 187
+Exits time <= 15   : 34
+Exits time > 15    : 153
+Time saturated 255 : 1439
+=====================================
