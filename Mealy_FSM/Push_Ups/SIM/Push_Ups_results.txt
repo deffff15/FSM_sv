@@ -1,0 +1,1 @@
+[AMOUNT=10 MAX_HEALTH=100] checked=30002 errors=0 | idle=551 exercise=23677 success=5774 failed=0 resets=161
