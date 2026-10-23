@@ -59,6 +59,14 @@ class BorderScoreboard;
     model_state_t expected_state = M_IDLE;
     int checked = 0;
     int errors  = 0;
+    int idle_cycles            = 0;
+    int check_passport_cycles  = 0;
+    int scan_baggage_cycles    = 0;
+    int approved_cycles        = 0;
+    int denied_cycles          = 0;
+    int arrested_cycles        = 0;
+    int arrested_at_passport   = 0;
+    int arrested_at_baggage    = 0;
 
     function void check(
         input logic rst_n,
@@ -86,16 +94,20 @@ class BorderScoreboard;
                         next_state = M_CHECK_PASSPORT;
                 end
                 M_CHECK_PASSPORT: begin
-                    if (has_weapons_i)
+                    if (has_weapons_i) begin
                         next_state = M_ARRESTED;
+                        arrested_at_passport++;
+                    end
                     else if (!has_passport_i)
                         next_state = M_DENIED;
                     else
                         next_state = M_SCAN_BAGGAGE;
                 end
                 M_SCAN_BAGGAGE: begin
-                    if (has_weapons_i || has_contraband_i)
+                    if (has_weapons_i || has_contraband_i) begin
                         next_state = M_ARRESTED;
+                        arrested_at_baggage++;
+                    end
                     else
                         next_state = M_APPROVED;
                 end
@@ -120,7 +132,39 @@ class BorderScoreboard;
             mismatch = 1;
         if (mismatch)
             errors++;
+        case (expected_state)
+            M_IDLE:           idle_cycles++;
+            M_CHECK_PASSPORT: check_passport_cycles++;
+            M_SCAN_BAGGAGE:   scan_baggage_cycles++;
+            M_APPROVED:       approved_cycles++;
+            M_DENIED:         denied_cycles++;
+            M_ARRESTED:       arrested_cycles++;
+            default: ;
+        endcase
         checked++;
+    endfunction
+
+    function void report();
+        $display("=========== BORDER RESULTS ==========");
+        $display("Cycles checked        : %0d", checked);
+        $display("Passed                : %0d", checked - errors);
+        $display("Errors                : %0d", errors);
+        $display("-------------------------------------");
+        $display("IDLE cycles           : %0d", idle_cycles);
+        $display("CHECK_PASSPORT cycles : %0d", check_passport_cycles);
+        $display("SCAN_BAGGAGE cycles   : %0d", scan_baggage_cycles);
+        $display("-------------------------------------");
+        $display("Allowed (APPROVED)    : %0d", approved_cycles);
+        $display("Denied                : %0d", denied_cycles);
+        $display("Arrested              : %0d", arrested_cycles);
+        $display("  at passport check   : %0d", arrested_at_passport);
+        $display("  at baggage scan     : %0d", arrested_at_baggage);
+        $display("-------------------------------------");
+        if (errors == 0)
+            $display("Result                : PASSED");
+        else
+            $display("Result                : FAILED");
+        $display("=====================================");
     endfunction
 endclass
 
@@ -242,6 +286,7 @@ class BorderEnvironment;
         gen.run();
         repeat (3) @(posedge vif.clk);
         #2;
+        sb.report();
         if (sb.errors != 0)
             $fatal(1);
     endtask

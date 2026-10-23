@@ -1,1 +1,17 @@
-Test completed successfully
+=========== BORDER RESULTS ==========
+Cycles checked        : 30003
+Passed                : 30003
+Errors                : 0
+-------------------------------------
+IDLE cycles           : 14466
+CHECK_PASSPORT cycles : 5738
+SCAN_BAGGAGE cycles   : 4110
+-------------------------------------
+Allowed (APPROVED)    : 3115
+Denied                : 1012
+Arrested              : 1562
+  at passport check   : 594
+  at baggage scan     : 968
+-------------------------------------
+Result                : PASSED
+=====================================
