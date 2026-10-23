@@ -1,1 +1,16 @@
-Test completed successfully
+========= DEPORTATION RESULTS =======
+Cycles checked          : 30003
+Passed                  : 30003
+Errors                  : 0
+-------------------------------------
+WAIT_FOR_PERSON cycles  : 10857
+WAIT_FOR_DOC cycles     : 10646
+LOTTERY_DRAW cycles     : 4262
+DECISION_OUT cycles     : 4238
+-------------------------------------
+Busy cycles             : 14908
+Stay approved           : 2165
+Deported                : 2073
+-------------------------------------
+Result                  : PASSED
+=====================================
