@@ -1,0 +1,11 @@
+---------------- scoreboard ----------------
+cycles checked    : 20172
+errors            : 0
+jackpots          : 303
+lost at level 1   : 1363
+lost at level 2   : 644
+lost at level 3   : 302
+waiting for spin  : 4242
+ignored spins     : 2400
+resets mid-game   : 28
+--------------------------------------------
