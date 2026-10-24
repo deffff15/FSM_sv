@@ -1,0 +1,12 @@
+---------------- scoreboard ----------------
+cycles checked        : 20200
+errors                : 0
+rescues               : 1683
+  without struggling  : 1344
+  after struggling    : 339
+  at the limit        : 17
+deaths                : 737
+restarts (RESC / DEAD): 2248
+start ignored (trap)  : 1089
+resets while trapped  : 70
+--------------------------------------------
