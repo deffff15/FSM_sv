@@ -1,0 +1,13 @@
+---------------- scoreboard ----------------
+cycles checked        : 20504
+errors                : 0
+well rested nights    : 1711
+tired nights          : 290
+nights with 0 disturb.: 933
+nights with 1 disturb.: 505
+nights with 2 disturb.: 273
+nights with 3+ disturb: 290
+ignored disturbances  : 2082
+ignored go-to-bed     : 3074
+resets mid-night      : 39
+--------------------------------------------
