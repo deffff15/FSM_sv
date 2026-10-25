@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_NeighborSimulator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_rtl_sv_3096229780 " />
+            <top_module name="glbl" />
+            <top_module name="tb_NeighborSimulator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,993 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="999,995 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="79"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="logic" fp_name="/tb_NeighborSimulator/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_NeighborSimulator/vif/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_NeighborSimulator/vif/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_NeighborSimulator/vif/noticed">
+      <obj_property name="ElementShortName">noticed</obj_property>
+      <obj_property name="ObjectShortName">noticed</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_NeighborSimulator/vif/shouting">
+      <obj_property name="ElementShortName">shouting</obj_property>
+      <obj_property name="ObjectShortName">shouting</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_NeighborSimulator/vif/police">
+      <obj_property name="ElementShortName">police</obj_property>
+      <obj_property name="ObjectShortName">police</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_NeighborSimulator/vif/fight">
+      <obj_property name="ElementShortName">fight</obj_property>
+      <obj_property name="ObjectShortName">fight</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_NeighborSimulator/vif/mowed">
+      <obj_property name="ElementShortName">mowed</obj_property>
+      <obj_property name="ObjectShortName">mowed</obj_property>
+   </wvobject>
+</wave_config>

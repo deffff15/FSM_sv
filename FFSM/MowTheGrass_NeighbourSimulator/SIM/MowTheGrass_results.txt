@@ -1,0 +1,11 @@
+---------------- scoreboard ----------------
+cycles checked    : 20180
+errors            : 0
+grass mowed       : 809
+shouting          : 917
+police            : 414
+fight             : 198
+ignored starts    : 1082
+ignored notices   : 5941
+resets mid-game   : 29
+--------------------------------------------
