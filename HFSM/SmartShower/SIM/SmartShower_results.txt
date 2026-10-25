@@ -1,0 +1,17 @@
+---------------- scoreboard ----------------
+cycles checked          : 20537
+errors                  : 0
+showers completed       : 1222
+scald in HEATING        : 52
+scald in RINSING        : 22
+scald in SOAPING        : 55
+scald in FINAL_RINSE    : 23
+scald in DRYING         : 79
+emergency held cycles   : 20
+emergency released      : 229
+scald ignored (OFF)     : 62
+other ignored inputs    : 19659
+waiting for temp_ok     : 2891
+waiting for soaped_up   : 2479
+resets mid-shower       : 45
+--------------------------------------------
