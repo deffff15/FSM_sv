@@ -1,0 +1,14 @@
+=========== PATTERN RESULTS =========
+Cycles checked          : 30003
+Passed                  : 30003
+Errors                  : 0
+-------------------------------------
+GOT_AA active cycles    : 7605
+GOT_BB active cycles    : 1928
+-------------------------------------
+Pattern found           : 365
+  ended with 0xCC       : 186
+  ended with 0xDD       : 179
+-------------------------------------
+Result                  : PASSED
+=====================================
