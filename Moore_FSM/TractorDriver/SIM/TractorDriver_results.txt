@@ -1,0 +1,19 @@
+---------------- scoreboard ----------------
+cycles checked          : 20256
+errors                  : 0
+runs completed          : 811
+engine starts           : 860
+row turns started       : 1988
+row turns finished      : 1976
+waiting in turn         : 1531
+field done              : 824
+waiting in garage       : 1915
+waiting in shutdown     : 2951
+field_done over row_end : 282
+field_done in turn      : 353
+start ignored           : 6197
+row_end ignored         : 2303
+field_done ignored      : 1159
+shutdown ignored        : 3721
+resets mid-run          : 48
+--------------------------------------------

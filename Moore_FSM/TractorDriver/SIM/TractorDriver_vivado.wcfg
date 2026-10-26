@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_TractorDriver_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_rtl_sv_3096229780 " />
+            <top_module name="glbl" />
+            <top_module name="tb_TractorDriver" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,993 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="66"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject type="logic" fp_name="/tb_TractorDriver/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/row_end">
+      <obj_property name="ElementShortName">row_end</obj_property>
+      <obj_property name="ObjectShortName">row_end</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/shut">
+      <obj_property name="ElementShortName">shut</obj_property>
+      <obj_property name="ObjectShortName">shut</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/glow">
+      <obj_property name="ElementShortName">glow</obj_property>
+      <obj_property name="ObjectShortName">glow</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/plow">
+      <obj_property name="ElementShortName">plow</obj_property>
+      <obj_property name="ObjectShortName">plow</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/turning">
+      <obj_property name="ElementShortName">turning</obj_property>
+      <obj_property name="ObjectShortName">turning</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_TractorDriver/vif/beacon">
+      <obj_property name="ElementShortName">beacon</obj_property>
+      <obj_property name="ObjectShortName">beacon</obj_property>
+   </wvobject>
+</wave_config>
