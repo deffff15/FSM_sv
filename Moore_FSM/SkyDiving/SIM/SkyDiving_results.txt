@@ -1,0 +1,14 @@
+---------------- scoreboard ----------------
+cycles checked          : 20192
+errors                  : 0
+jumps completed         : 1243
+opened by parachute     : 579
+opened by altitude      : 561
+opened by both          : 129
+waiting in freefall     : 6334
+waiting in descent      : 4690
+ground_near too early   : 2629
+green_light ignored     : 4822
+open request ignored    : 3176
+resets mid-jump         : 43
+--------------------------------------------
