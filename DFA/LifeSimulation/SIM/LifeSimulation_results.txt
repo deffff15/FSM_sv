@@ -1,0 +1,24 @@
+---------------- scoreboard ----------------
+cycles checked          : 21533
+errors                  : 0
+births                  : 231
+childhood -> career     : 64
+childhood -> family     : 79
+-> retirement           : 53
+deaths in childhood     : 52
+deaths career/family    : 52
+deaths in retirement    : 9
+deaths by old age       : 29
+deaths with legacy      : 41
+deaths without legacy   : 101
+death at age 65 (edge)  : 2
+death at age 64 (edge)  : 2
+health_fail over age    : 4
+waiting before birth    : 830
+waiting in end of life  : 11166
+born_i ignored          : 6288
+health_fail ignored     : 202
+career_focus ignored    : 9019
+resets mid-life         : 89
+resets after end        : 141
+--------------------------------------------
