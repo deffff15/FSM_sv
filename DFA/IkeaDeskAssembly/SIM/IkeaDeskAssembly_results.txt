@@ -1,0 +1,28 @@
+---------------- scoreboard ----------------
+cycles checked          : 20338
+errors                  : 0
+unboxed                 : 534
+manual read             : 517
+legs assembled          : 609
+desks finished          : 390
+crisis from legs        : 424
+crisis from mount top   : 187
+crisis exits            : 589
+back to legs from top   : 184
+exit with legs/top set  : 239
+missing over legs       : 111
+missing over top        : 54
+waiting in boxed        : 1021
+waiting in legs         : 1417
+waiting in mount top    : 734
+waiting in crisis       : 227
+waiting in finished     : 13107
+unboxed_i ignored       : 6847
+legs_assembled ignored  : 5685
+top_mounted ignored     : 5978
+missing_parts ignored   : 2289
+inputs ignored in manual: 387
+resets mid-assembly     : 121
+resets in crisis        : 22
+resets after end        : 390
+--------------------------------------------
