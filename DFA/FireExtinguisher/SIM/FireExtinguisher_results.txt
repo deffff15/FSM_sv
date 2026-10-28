@@ -1,0 +1,30 @@
+---------------- scoreboard ----------------
+cycles checked          : 20303
+errors                  : 0
+pin pulled              : 642
+aimed at base           : 807
+lever squeezed          : 628
+aim lost                : 324
+lever over lost aim     : 283
+lever released          : 248
+successes               : 293
+evacuated: empty        : 25
+empty over lever release: 13
+evacuated from idle     : 69
+evacuated from ready    : 88
+evacuated from aimed    : 50
+evacuated from extingu. : 25
+fire ooc over inputs    : 190
+fire ooc in success     : 265
+fire ooc in evacuate    : 387
+waiting in idle         : 1107
+waiting in ready        : 954
+waiting in aimed        : 293
+waiting in success      : 7655
+waiting in evacuate     : 6319
+pin ignored             : 6678
+lever ignored           : 8667
+empty ignored           : 838
+resets mid-run          : 161
+resets after end        : 549
+--------------------------------------------
