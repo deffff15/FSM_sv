@@ -1,0 +1,21 @@
+---------------- scoreboard ----------------
+cycles checked          : 20122
+errors                  : 0
+input change events     : 15571
+cycles without change   : 4551
+inside -> dressing      : 2781
+dressing -> inside      : 1539
+dressing -> at door     : 1604
+door over !get_dressed  : 859
+at door -> dressing     : 363
+keys over !door_opened  : 239
+at door -> outside      : 1241
+outside -> inside       : 1241
+pending (stale) states  : 2132
+event, no change: inside: 2032
+event, no change: dress : 829
+event, no change: door  : 524
+event, no change: outside: 3417
+lock released at door   : 2354
+lock blocked (keys)     : 274
+--------------------------------------------
