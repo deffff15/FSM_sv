@@ -1,0 +1,19 @@
+---------------- scoreboard ----------------
+cycles checked          : 20123
+errors                  : 0
+input change events     : 16196
+cycles without change   : 3927
+dirty -> soaking        : 2210
+soaking -> dirty        : 1411
+soaking -> scrub        : 2210
+scrub -> soaking        : 1411
+scrub -> clean          : 799
+clean -> dirty          : 799
+brush over !water       : 1084
+clean over !brush       : 479
+pending (stale) states  : 2010
+event, no change: dirty : 1881
+event, no change: soak  : 895
+event, no change: scrub : 908
+event, no change: clean : 3672
+--------------------------------------------
