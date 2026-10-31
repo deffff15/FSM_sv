@@ -1,0 +1,27 @@
+---------------- scoreboard ----------------
+cycles checked          : 20130
+errors                  : 0
+hunts started           : 1094
+blood while hunting     : 1116
+blood over prey caught  : 104
+blood together with orca: 115
+blood while injured     : 599
+prey caught (hunt ends) : 738
+orca during hunt        : 255
+orca while swimming     : 282
+orca while injured      : 293
+healed                  : 435
+orca over healed        : 43
+healed ignored          : 2266
+prey caught ignored     : 2132
+waiting, swimming       : 7933
+waiting, hunting        : 5887
+waiting, injured        : 4049
+status 00 cycles        : 9234
+status 10 cycles        : 2900
+status 11 cycles        : 7996
+status 11 and injured   : 1877
+resets while hunting    : 86
+resets while injured    : 37
+resets hunting+injured  : 14
+--------------------------------------------
