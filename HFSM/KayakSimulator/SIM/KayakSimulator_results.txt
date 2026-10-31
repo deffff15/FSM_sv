@@ -1,0 +1,32 @@
+---------------- scoreboard ----------------
+cycles checked          : 22542
+errors                  : 0
+advanced from         K_PIER: 191
+advanced from K_GETTING_INTO: 187
+advanced from  K_CASTING_OFF: 180
+advanced from K_SAILING_AWAY: 175
+advanced from     K_KAYAKING: 129
+advanced from K_SAILING_BACK: 124
+advanced from      K_MOORING: 119
+advanced from  K_GETTING_OUT: 116
+go_next in kayaking too early : 2337
+go_next held (no edge)  : 1551
+waiting, game ended     : 510
+hold cycles counted     : 7705
+hold ignored            : 3135
+result stably           : 250
+result sway             : 244
+result falling          : 145
+program_counter == 49   : 35
+program_counter == 50   : 15
+program_counter == 74   : 11
+program_counter == 75   : 11
+old result on pier      : 56
+resets in K_GETTING_INTO: 4
+resets in  K_CASTING_OFF: 7
+resets in K_SAILING_AWAY: 5
+resets in     K_KAYAKING: 45
+resets in K_SAILING_BACK: 5
+resets in      K_MOORING: 5
+resets in  K_GETTING_OUT: 3
+--------------------------------------------
