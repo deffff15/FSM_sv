@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Cowboy_Shootout_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_rtl_sv_3096229780 " />
+            <top_module name="glbl" />
+            <top_module name="tb_Cowboy_Shootout" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,993 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="66"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject type="logic" fp_name="/tb_Cowboy_Shootout/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Cowboy_Shootout/vif/rst_n">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Cowboy_Shootout/vif/p1">
+      <obj_property name="ElementShortName">p1</obj_property>
+      <obj_property name="ObjectShortName">p1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Cowboy_Shootout/vif/p2">
+      <obj_property name="ElementShortName">p2</obj_property>
+      <obj_property name="ObjectShortName">p2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Cowboy_Shootout/vif/signal">
+      <obj_property name="ElementShortName">signal</obj_property>
+      <obj_property name="ObjectShortName">signal</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Cowboy_Shootout/vif/winner">
+      <obj_property name="ElementShortName">winner[1:0]</obj_property>
+      <obj_property name="ObjectShortName">winner[1:0]</obj_property>
+   </wvobject>
+</wave_config>

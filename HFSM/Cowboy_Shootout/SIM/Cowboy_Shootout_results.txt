@@ -1,0 +1,32 @@
+---------------- scoreboard ----------------
+cycles checked          : 20565
+errors                  : 0
+preparing -> walking    : 255
+walking -> shooting     : 137
+cheat while preparing   : 140
+cheat while walking     : 79
+cheat at counter 5      : 15
+cheat at counter 15     : 9
+cheat by p1 only        : 127
+cheat by p2 only        : 82
+cheat by both           : 10
+p1 shot first           : 57
+p2 shot first           : 29
+both shot together      : 5
+shots after winner      : 286
+waiting in preparing    : 1636
+waiting in walking      : 1763
+waiting in shooting     : 2534
+shooting, no winner     : 2625
+shooting, p1 wins       : 2754
+shooting, p2 wins       : 988
+shooting, s1 and s2 set : 68
+cheater, p1 shoots      : 424
+cheater, p2 shoots      : 364
+cheater, both shoot     : 43
+cheater, nobody shoots  : 8918
+resets in preparing     : 26
+resets in walking       : 39
+resets in shooting      : 136
+resets in cheater       : 219
+--------------------------------------------
