@@ -1,0 +1,22 @@
+---------------- scoreboard ----------------
+cycles checked          : 20160
+errors                  : 0
+opening started         : 733
+opened                  : 683
+closing started         : 620
+closed                  : 575
+opened after 1 cycle    : 127
+closed after 1 cycle    : 112
+waiting in closed       : 5090
+waiting in opening      : 4235
+waiting in open         : 4351
+waiting in closing      : 3636
+sunrise ignored         : 2532
+sunset ignored          : 2605
+limit_switch ignored    : 2285
+sunrise+sunset in closed: 127
+sunrise+sunset in open  : 109
+resets while opening    : 50
+resets while open       : 62
+resets while closing    : 45
+--------------------------------------------
