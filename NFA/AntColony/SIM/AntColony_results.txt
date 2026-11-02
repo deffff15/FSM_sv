@@ -1,0 +1,16 @@
+========== ANT COLONY SCOREBOARD ==========
+Cycles checked      : 2003
+Passed              : 2003
+Errors              : 0
+Activity 00 cycles  : 1266
+Activity 01 cycles  : 0
+Activity 10 cycles  : 0
+Activity 11 cycles  : 737
+Pheromone cycles    : 737
+PANIC cycles        : 0
+Food events         : 312
+Home events         : 599
+Rain events         : 197
+Reset cycles        : 12
+NOTE: ST_PANIC was never reached
+===========================================
