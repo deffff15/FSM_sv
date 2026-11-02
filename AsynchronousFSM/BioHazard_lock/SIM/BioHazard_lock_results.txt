@@ -1,0 +1,22 @@
+---------------- scoreboard ----------------
+cycles checked          : 20162
+errors                  : 0
+input change events     : 15910
+cycles without change   : 4252
+ventilated -> contam.   : 1848
+contam. -> purging      : 1712
+purging -> equalizing   : 1594
+equalizing -> ventilated: 1486
+event, no change: vent  : 4222
+event, no change: contam: 1887
+event, no change: purge : 1347
+event, no change: equal.: 1218
+sb_entered change ignored   : 4819
+outer_door change ignored   : 6581
+pressure change ignored     : 5468
+pending (stale) states  : 2231
+resets in contaminated  : 136
+resets in purging       : 117
+resets in equalizing    : 108
+resets while ventilated : 235
+--------------------------------------------
