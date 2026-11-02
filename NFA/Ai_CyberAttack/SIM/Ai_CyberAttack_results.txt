@@ -1,0 +1,16 @@
+========== CYBER ATTACK SCOREBOARD ==========
+Cycles checked      : 2003
+Passed              : 2003
+Errors              : 0
+Threat 00 cycles    : 495
+Threat 01 cycles    : 49
+Threat 10 cycles    : 526
+Threat 11 cycles    : 933
+Firewall block cyc. : 933
+Breach entries      : 156
+Port scan events    : 409
+Bulk transfer events: 305
+Root brute events   : 308
+Admin override evts : 313
+Reset cycles        : 12
+=============================================
