@@ -1,0 +1,32 @@
+---------------- scoreboard ----------------
+cycles checked          : 20525
+errors                  : 0
+card accepted           : 278
+wait timeouts           : 3
+plug connected          : 270
+plug at timeout edge    : 1
+locking took 1 cycle    : 62
+locking took 2 cycles   : 55
+locking took 3 cycles   : 143
+charge complete         : 53
+unlocked                : 51
+emergency: temp         : 8
+emergency: plug lost    : 193
+emergency: temp + plug  : 3
+emergency over complete : 33
+waiting in standby      : 1323
+waiting for plug        : 381
+waiting in locking      : 343
+waiting in charging     : 317
+waiting in unlocking    : 155
+waiting in emergency    : 16638
+card_valid ignored      : 4312
+plug ignored            : 10423
+temp_critical ignored   : 419
+charge_complete ignored : 3198
+resets waiting for plug : 5
+resets in locking       : 10
+resets in charging      : 3
+resets in unlocking     : 2
+resets in emergency     : 203
+--------------------------------------------
